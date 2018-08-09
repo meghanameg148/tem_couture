@@ -83,15 +83,15 @@ body{
 
 .active, .dot:hover {
   background-color: #717171;
-=======
+}
 
 .button{
   background-color: #FFFFFF;
   color:#000000;
   padding: 10px 15px;
   border: none;
->>>>>>> 87dbdb3a852e9582b81175844871b50d398c5d6d
 }
+
 
 .button:hover{
   background:black;
@@ -111,7 +111,7 @@ body{
   to {
     opacity: 1
   }
-}
+
 
 <<<<<<< HEAD=======.button {
   background-color: #FFFFFF;
@@ -128,12 +128,10 @@ body{
 }
 
 .button:hover {
-  background:gray;
+  background:black;
   color: white;
 }
 
->>>>>>>c705161a5998cb93ece07134a13d8112d6e3d782
-=======
 
   .btn-pinterest{
     background: #b62f26;
@@ -142,4 +140,3 @@ body{
 
   #social-buttons button{
     color: white;
->>>>>>> 87dbdb3a852e9582b81175844871b50d398c5d6d
