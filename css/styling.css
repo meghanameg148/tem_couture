@@ -1,7 +1,13 @@
-body {
-  font-family: "Times New Roman", Times, serif;
+body{
+  font-family:"Times New Roman", Times, serif;
+  color:white;
+  background-image: url('../images/flowers.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
 }
 
+<<<<<<< HEAD
 /* Slideshow container */
 
 .slideshow-container {
@@ -76,30 +82,31 @@ body {
 
 .active, .dot:hover {
   background-color: #717171;
+=======
+
+.button{
+  background-color: #FFFFFF;
+  color:#000000;
+  padding: 10px 15px;
+  border: none;
+>>>>>>> 87dbdb3a852e9582b81175844871b50d398c5d6d
 }
 
-/* Fading animation */
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.button:hover{
+  background:black;
+  color:white;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: .4
+  .btn-twitter{
+    background: #00acee;
+    border-color: #009ad5;
   }
-  to {
-    opacity: 1
-  }
-}
 
-@keyframes fade {
-  from {
-    opacity: .4
+  .btn-facebook{
+    background: #4868ac;
+    border-color: #314776;
   }
+<<<<<<< HEAD
   to {
     opacity: 1
   }
@@ -125,3 +132,13 @@ body {
 }
 
 >>>>>>>c705161a5998cb93ece07134a13d8112d6e3d782
+=======
+
+  .btn-pinterest{
+    background: #b62f26;
+    border-color: #b62f26;
+  }
+
+  #social-buttons button{
+    color: white;
+>>>>>>> 87dbdb3a852e9582b81175844871b50d398c5d6d
