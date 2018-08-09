@@ -2,10 +2,6 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-  {
-  box-sizing: border-box
-}
-
 /* Slideshow container */
 
 .slideshow-container {
@@ -41,12 +37,6 @@ body {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -114,19 +104,24 @@ body {
     opacity: 1
   }
 }
-<<<<<<< HEAD
-=======
 
+<<<<<<< HEAD=======.button {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+}
 
-  .button{
-    background-color: #FFFFFF;
-    color:#000000;
-    padding: 10px 15px;
-    border: none;
-  }
+.button {
+  background-color: gray;
+  color: white;
+  padding: 10px 15px;
+  border:none;
+}
 
-  .button:hover{
-    background:black;
-    color:white;
-  }
->>>>>>> c705161a5998cb93ece07134a13d8112d6e3d782
+.button:hover {
+  background:gray;
+  color: white;
+}
+
+>>>>>>>c705161a5998cb93ece07134a13d8112d6e3d782
