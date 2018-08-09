@@ -114,3 +114,19 @@ body {
     opacity: 1
   }
 }
+<<<<<<< HEAD
+=======
+
+
+  .button{
+    background-color: #FFFFFF;
+    color:#000000;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  .button:hover{
+    background:black;
+    color:white;
+  }
+>>>>>>> c705161a5998cb93ece07134a13d8112d6e3d782
