@@ -23,7 +23,7 @@ body{
   display: none;
 }
 
-/* Next & previous buttons */
+
 
 .prev, .next {
   cursor: pointer;
@@ -121,7 +121,7 @@ body{
 }
 
 .button {
-  background-color: gray;
+  background-color: lightpink;
   color: white;
   padding: 10px 15px;
   border:none;
@@ -140,3 +140,4 @@ body{
 
   #social-buttons button{
     color: white;
+}
